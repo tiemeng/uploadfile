@@ -1,0 +1,17 @@
+{
+  "name": "tiemeng/composer-demo",
+  "authors": [
+    {
+      "name": "铁猛",
+      "email": "meng_tie@loongjoy.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "UploadFile\\": "src/UploadFile"
+    }
+  }
+}
